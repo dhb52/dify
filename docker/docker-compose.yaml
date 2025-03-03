@@ -411,6 +411,8 @@ x-shared-env: &shared-api-worker-env
   MARKETPLACE_API_URL: ${MARKETPLACE_API_URL:-https://marketplace.dify.ai}
   FORCE_VERIFYING_SIGNATURE: ${FORCE_VERIFYING_SIGNATURE:-true}
 
+name: dify
+
 services:
   # API service
   api:
